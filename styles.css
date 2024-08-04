@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #e4181899;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.mail{
+  font-style: none;
+}
+
+
+
+header {
+  background-color: #53151599;
+  color: #fff;
+  padding: 20px 0;
+  
+  text-align: center;
+  
+}
+
+
+.title h1 {
+  
+  margin: 0;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+
+.title span:hover{
+  color: #e4181899;
+  cursor: pointer;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  
+  
+}
+
+header nav ul li a:hover {
+  color: #e4181899;
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+
+.self{
+  width: 40%;
+  height: 50%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+}
+.self:hover
+{
+  width: 42%;
+  height: 52%;
+  border-radius: 25px;
+  
+}
+
+
+.Skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.project:hover{
+  transform: scale(1.02);
+  transition-delay: 0ms;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 15px;
+}
+
+.project a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  background-color: #e4181899;
+  transform: scale(1.04)
+}
+
+
+
+.media-button{
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  
+ 
+}
+
+.Pic{
+  
+  width: 40px;
+  height: 40px;
+  border: none;
+
+  border-radius: 50%;
+  
+ 
+}
+
+
+.media-button:hover{
+  transform: scale(1.05);
+}
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  
+  bottom: 0;
+  width: 100%;
+}
